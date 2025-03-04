@@ -31,32 +31,8 @@ const Footer = memo<DivProps>(({ className, ...props }) => {
   });
 
   return (
-    <div className={cx(styles.footer, className)} {...props}>
-      <F
-        bottom={<div ref={footerReference} />}
-        columns={
-          setting.layoutHideFooter ?
-            [] :
-            [
-                {
-                  title: <Brand />,
-                },
-                {
-                  items: Resources,
-                  title: t('footer.resources'),
-                },
-                {
-                  items: Community,
-                  title: t('footer.community'),
-                },
-                {
-                  items: MoreProducts,
-                  title: t('footer.moreProducts'),
-                },
-              ]
-        }
-        contentMaxWidth={1280}
-      />
+    <div>
+      Footer
     </div>
   );
 });
