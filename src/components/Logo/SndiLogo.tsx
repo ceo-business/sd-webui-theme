@@ -8,6 +8,7 @@ export interface SndiLogoProps {
 }
 
 const SndiLogo = memo<SndiLogoProps>(({ size = 32, style }) => {
+
   return (
     <img
       alt="logo"

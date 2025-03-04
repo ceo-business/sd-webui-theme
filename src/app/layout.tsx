@@ -99,7 +99,7 @@ export const Layout = memo<PropsWithChildren>(({ children }) => {
           content="https://repository-images.githubusercontent.com/606329910/7fd79db5-fd91-450c-9e95-8ccce8ffdc0b"
           name="twitter:image"
         />
-        <link href="https://github.com/lobehub/sd-webui-lobe-theme" rel="canonical" />
+        <link href="https://github.com/ceo-business/sd-webui-theme" rel="canonical" />
       </Helmet>
       <GlobalLayout>
         {storeLoading === false && loading === false ? children : <Loading />}
