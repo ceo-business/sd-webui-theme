@@ -1,4 +1,3 @@
-import { Footer as F } from '@lobehub/ui';
 import isEqual from 'fast-deep-equal';
 import { memo, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -7,8 +6,6 @@ import { useInject } from '@/hooks/useInject';
 import { selectors, useAppStore } from '@/store';
 import { type DivProps } from '@/types';
 
-import Brand from './Brand';
-import { Community, MoreProducts, Resources } from './data';
 import { useStyles } from './style';
 
 const Footer = memo<DivProps>(({ className, ...props }) => {

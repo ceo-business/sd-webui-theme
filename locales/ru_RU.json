@@ -7,7 +7,7 @@
   "cancel": "Отмена",
   "confirm": "Подтвердить",
   "custom": {
-    "initializing": "StableDiffusion / LobeTheme инициализируется, пожалуйста, подождите..."
+    "initializing": "Идет загрузка, пожалуйста, подождите..."
   },
   "footer": {
     "community": "Сообщество",
