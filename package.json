@@ -1,25 +1,18 @@
 {
-  "name": "sd-webui-lobe-theme",
+  "name": "sd-webui-theme",
   "version": "3.5.4",
   "private": true,
   "description": "LobeThem: The Modern Theme for Stable Diffusion WebUI, Exquisite interface design, Highly customizable UI, and Efficiency boosting features.",
   "keywords": [
-    "lobehub",
     "stable-diffusion-webui",
-    "sd-webui-kitchen-theme",
-    "kitchen-theme",
     "extensions"
   ],
-  "homepage": "https://github.com/lobehub/sd-webui-lobe-theme",
-  "bugs": {
-    "url": "https://github.com/lobehub/sd-webui-lobe-theme/issues/new"
-  },
+  "homepage": "https://github.com/ceo-business/sd-webui-theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lobehub/sd-webui-lobe-theme.git"
+    "url": "https://github.com/ceo-business/sd-webui-theme.git"
   },
   "license": "AGPL3",
-  "author": "LobeHub <i@lobehub.com>",
   "sideEffects": false,
   "main": "javascript/main.js",
   "files": [
